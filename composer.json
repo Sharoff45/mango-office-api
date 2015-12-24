@@ -1,0 +1,24 @@
+{
+  "name": "sharoff/mango-office-api",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Sharoff\\Mango\\Api\\": "src/Section/"
+    }
+  },
+  "description": "Библиотека для работы с API mango-office",
+  "keywords": [],
+  "homepage": "https://sharoff.org",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Сергей Кокшаров",
+      "email": "info@sharoff.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "symfony/http-foundation": "^3.0"
+  },
+  "minimum-stability": "dev"
+}
